@@ -1,0 +1,12 @@
+.nav-container{
+    background-color: #a7d1ec;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    height: 80px;
+}
+
+.icon{
+    font-size: 40px;
+    padding-right: 15px;
+}
