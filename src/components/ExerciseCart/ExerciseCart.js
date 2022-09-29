@@ -62,7 +62,7 @@ const ExerciseCart = (props) => {
                     </div>
                 <div className='exercise-details'>
                     <p>Break time</p>
-                    <p>{items}<small>sec</small></p>
+                    <p>{items? items : 0}<small> sec</small></p>
                 </div>
                 <button onClick={notify} className='activity-btn'>Activity Completed</button>
                 </div>
