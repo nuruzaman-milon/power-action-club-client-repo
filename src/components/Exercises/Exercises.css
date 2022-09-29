@@ -71,7 +71,7 @@
     cursor: pointer;
 }
 
-
+/* mobile responsive */
 @media only screen and (max-width: 700px) {
     .Exercise-container{
         display: grid;
@@ -82,5 +82,13 @@
         grid-template-columns: 1fr;
         margin-top: 10px;
         width: 88%;
+    }
+}
+
+/* tab responsive */
+@media only screen and (min-width: 701px) and (max-width: 950px) {
+    .cart-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
