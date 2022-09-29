@@ -1,0 +1,71 @@
+.user-cart-container{
+    background-color: lightgray;
+    padding: 10px;
+    position: relative;
+}
+.position{
+    position: sticky;
+    top: 20px;
+}
+.Exercise-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile img{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.user-description{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.break-time{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 0 10px;
+}
+.break-time p{
+    background-color: rgb(149, 186, 186);
+    padding: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.exercise-details{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+
+.activity-btn{
+    background-color: #8cc3e6;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

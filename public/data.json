@@ -2,43 +2,49 @@
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
     "name": "Flat Bench Press",
-    "timesRequired": 5,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSuoG8uERpE306jlZx76nlx53R3MtWNC1QL-7MO-idVNwaPWYpfYjg0XOeIUMBS318-Uc&usqp=CAU",
+    "timesRequired": 30,
+    "desc": "If you are only going to do one bench press exercise for your chest muscles, the flat barbell bench press is probably the better choice.",
+    "img": "https://s3.amazonaws.com/prod.skimble/assets/540959/image_iphone.jpg",
     "ratings": 4
   },
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
     "name": "Dumbell",
-    "timesRequired": 10,
-    "img": "https://cdn.shopify.com/s/files/1/0564/6113/1956/products/HEX_DUMBBELL_ALL_SHOP_75KG_700x700.jpg?v=1652944598",
+    "timesRequired": 20,
+    "desc": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease. Since strength training builds lean muscle mass.",
+    "img": "https://images.wsjcommerce.net/im-557627?width=1280&size=1",
     "ratings": 5
   },
   {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
     "name": "Cycle",
-    "timesRequired": 15,
+    "timesRequired": 40,
+    "desc": "Regular physical activity can help protect you from serious diseases such as obesity, heart disease, cancer, mental illness, diabetes and arthritis.",
     "img": "https://www.zerohealthcare.com/wp-content/uploads/2022/07/Yumin_2907_Product-Thumbnai-X-megaBike_1000x1000px.jpg",
     "ratings": 5
   },
   {
     "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
     "name": "Tower Dip Station",
-    "timesRequired": 10,
-    "img": "https://m.media-amazon.com/images/I/51z3bDM0mbL._AC_SY879_.jpg",
+    "timesRequired": 30,
+    "desc": "What is dip station good for? They can be great tools for building a strong and powerful upper body and developing the muscles of the chest and triceps.",
+    "img": "https://i5.walmartimages.com/asr/595d6247-6e45-4530-9328-def05c157a15.5337a25c1d90e7d33ce4495d5b8992a3.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
     "ratings": 4
   },
   {
     "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-    "name": "Trademill",
-    "timesRequired": 20,
-    "img": "https://rflbestbuy.com/images/detailed/74/treadmill-1.gif",
+    "name": "Treadmills",
+    "timesRequired": 50,
+    "desc": "Treadmills provide outstanding cardiovascular exercises, which can significantly enhance your heart health. Thanks to their ability to maintain constant heart rates.",
+    "img": "https://www.tufftread.com/site/wp-content/uploads/2021/04/CardioFits-in-Fitness-Facility.jpg",
     "ratings": 5
   },
   {
     "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
     "name": "Zym Ball",
-    "timesRequired": 10,
-    "img": "https://www.sportsmarketbd.com/wp-content/uploads/2017/01/c-22.png",
+    "timesRequired": 60,
+    "desc": "Also known as exercise balls, Swiss balls, Physio balls, and balance balls, the purpose of the stability ball is to improve balance, muscle tone and core strength.",
+    "img": "https://contents.mediadecathlon.com/p1988452/k$c8d56ba600e3988ba7caaeaf4b82d853/sq/8603635.jpg?format=auto&f=800x0",
     "ratings": 3
   }
 ]
