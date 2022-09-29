@@ -70,3 +70,17 @@
     border-radius: 6px;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .Exercise-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .cart-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        width: 88%;
+    }
+}
