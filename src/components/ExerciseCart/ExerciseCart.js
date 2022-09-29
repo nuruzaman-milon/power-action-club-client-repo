@@ -10,10 +10,9 @@ const ExerciseCart = (props) => {
 
     const [time, setTime] = useState(0);
 
-    const breakTime = (value) =>{
-        setTime(value);
-    }
-    // console.log(time);
+    
+    
+    // localStorage.setItem('time', JSON.stringify(time));
 
     return (
         <div>
@@ -56,7 +55,7 @@ const ExerciseCart = (props) => {
                     </div>
                 <div className='exercise-details'>
                     <p>Break time</p>
-                    <p>{time}<small>sec</small></p>
+                    <p>{items}<small>sec</small></p>
                 </div>
                 <button className='activity-btn'>Activity Completed</button>
                 </div>
