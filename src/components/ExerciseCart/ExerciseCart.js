@@ -10,7 +10,11 @@ const ExerciseCart = (props) => {
 
     const [time, setTime] = useState(0);
 
-    
+    const breakTime = (time) =>{
+        setTime(time);
+        localStorage.setItem('time', JSON.stringify(time));
+    }
+    const items = JSON.parse(localStorage.getItem('time'));
     
     // localStorage.setItem('time', JSON.stringify(time));
 
