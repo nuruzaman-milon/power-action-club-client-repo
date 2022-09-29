@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ExerciseCart = (props) => {
     const {userCart} = props;
@@ -18,6 +20,7 @@ const ExerciseCart = (props) => {
     
     // localStorage.setItem('time', JSON.stringify(time));
 
+    const notify = () => toast("congratulation! you are free now.. ");
     return (
         <div>
             <div className='profile'>
@@ -61,10 +64,12 @@ const ExerciseCart = (props) => {
                     <p>Break time</p>
                     <p>{items}<small>sec</small></p>
                 </div>
-                <button className='activity-btn'>Activity Completed</button>
+                <button onClick={notify} className='activity-btn'>Activity Completed</button>
                 </div>
+                <ToastContainer />
         </div>
     );
 };
+
 
 export default ExerciseCart;
